@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
   cursor: default;
   cursor:url('images/cursor.png'), auto;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
