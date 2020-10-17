@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/png" href="./Logos/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="collaborations.css">
+  <title>COLLABORATIONS</title>
+</head>
+<body>
+<div class="collaborations">
+
+
+<div class="collab1">
+  <video id="videoBG1" poster="" autoplay muted loop>
+    <source src="Video content/WITH YOU video .mp4" type="video/mp4">
+  </video>
+
+
+  <div class="contentleft">
+    <div class="up">
+      <h1 class="collaboration">COLLABORATIONS</h1>
+      <a href="index.html" class="back">BACK HOME</a>
+    </div>
+
+    <div class="textp">
+      <p>This song as a whole represents me, going through multiple phases during a composition session.
+      </p>
+      <p>
+        Vocals : Tudor Monroe, Bella Maria, Vayo Lawal
+        Music Production : Tudor Monroe 
+        Mix / Master : Tudor Monroe
+      </p>
+
+
+        <p>Directed by SAN 
+          DOP : Bogdan Filip, SAN</p>
+        <p>Styled by “notRainproof”
+          Artwork : Moe Alka</p>
+    </div>
+  
+
+    <div class="down">
+      <div class="text2">
+        <h1>WITH YOU</h1>
+      </div>
+    </div>
+
+  </div>
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">&times;</div>
+      <h1>PLAY THE SOUNDS</h1>
+      <div class="icons">
+        <a href="" target="blank"><img src="https://img.icons8.com/nolan/64/spotify.png"/></a>
+        <a href=""><img src="https://img.icons8.com/nolan/64/youtube-squared.png"/></a>
+        <a href=""><img src="https://img.icons8.com/nolan/64/youtube-music.png"/></a>
+      </div>
+    </div>
+  </div>
+  <button onclick="togglePopup()" >PLAY THE SOUNDS</button>
+
+  <div class="contentright1">
+    <img src="./Pictures/girl.png" alt="salut">
+    <h1>Bella Maria</h1>
+  </div>
+
+
+
+  </div>
+
+  <div class="collab2">
+
+    <video id="videoBG2" poster="" autoplay muted loop>
+      <source src="Video content/After movie - My Way 2.0.mp4" type="video/mp4">
+    </video>
+  
+    <div class="contentleft">
+      
+      <div class="up">
+        <h1 class="collaboration">COLLABORATIONS</h1>
+        <a href="index.html" class="leftup">BACK HOME</a>
+      </div>
+
+      <div class="textp">
+        <!-- <p>personal project, collaboration between me, Horia Tecau, Brent Fayaz and Tequila Balantan.</p> -->
+      </div>
+  
+      <div class="down">
+        <div class="text2">
+          <h1>MY WAY</h1>
+        </div>
+      </div>
+  
+    </div>
+    <button>COMING SOON</button>
+
+    <div class="contentright">
+      <img src="./Pictures/baiatumov2.png" alt="salut">
+      <h1>Moe Alka</h1>
+      <img src="./Pictures/baiatumov1.png" alt="salut">
+      <h1>Zamien</h1>
+    </div>
+
+
+
+  </div>
+
+
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+
+  function togglePopup2(){
+  document.getElementById("popup-2").classList.toggle("active");
+}
+</script>
+</body>
+</html>
