@@ -109,7 +109,7 @@ h1, h3, a, p{
   .page{
     background: #EEEEEE;
     color: #333533;
-    min-height: 100vh;
+    height: 120vh;
     width: 100%;
     display: grid;
     grid-template-columns: 5% 1fr 5%;
