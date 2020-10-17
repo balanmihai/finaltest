@@ -75,6 +75,10 @@ h1, h3, a, p{
   font-size: 2em;
 }
 
+.collaboration h3:hover, .stalk h3:hover{
+  color: #8338EC;
+}
+
 .touch1{
   font-size: 7em;
   color: #EEEEEE;
