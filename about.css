@@ -10,16 +10,11 @@ html{
   scroll-behavior: smooth;
   cursor: default;
   cursor:url('images/cursor.png'), auto;
-  background: #EEEEEE;
 /*   overflow: hidden; */
 }
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-a:hover, h3:hover{
-  color: #8338EC;
 }
 
 .page{
@@ -72,10 +67,6 @@ h1, h3, a, p{
   color: #8338EC;
 }
 
-.cv p{
-  font-size: 1.1em;
-}
-
 .tudor{
   position: absolute;
   bottom:0%;
@@ -110,7 +101,7 @@ h1, h3, a, p{
   .page{
     background: #EEEEEE;
     color: #333533;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     display: grid;
     grid-template-columns: 5% 1fr 5%;
@@ -121,10 +112,6 @@ h1, h3, a, p{
     font-weight: 700;
     text-decoration: none;
     color: #333533;
-  }
-
-  .bgtext{
-    display: none;
   }
 
   .cv{
@@ -143,14 +130,13 @@ h1, h3, a, p{
   }
 
   .tudor{
-    display: none;
     position: absolute;
     bottom: 5%;
     height: 50vh;
   }
 
   .cv p{
-    font-size: 12px;
+    font-size: 1em;
   }
 
   .bgtext{
