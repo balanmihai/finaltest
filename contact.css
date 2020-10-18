@@ -340,15 +340,17 @@ textarea:hover {
 
 
   .leftdown{
-    position: absolute;
+    display: none;
+    /* position: absolute;
     bottom: 1%;
-    left: 1%;
+    left: 1%; */
   }
 
   .rightdown{
-    position: absolute;
+    display: none;
+    /* position: absolute;
     bottom: 1%;
-    right: 1%;
+    right: 1%; */
   }
 
   .year{
