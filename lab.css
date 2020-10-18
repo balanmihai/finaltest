@@ -10,7 +10,6 @@
 html{
   scroll-behavior: smooth;
   cursor:url('./Pictures/cursor.png'), auto;
-  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -78,9 +77,6 @@ footer{
 
 @media screen and (max-width:960px) {
 
-  body{
-    overflow: hidden;
-  }
   a, h3, h1{
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
@@ -101,7 +97,7 @@ footer{
     font-weight: 900;
     text-decoration: none;
     color:  #8338EC;
-    font-size: 2em;
+    font-size: 3em;
   }
   
   .text2{
@@ -110,7 +106,7 @@ footer{
     text-decoration: none;
     color: #EEEEEE;
     -webkit-text-stroke: 2px #8338EC;
-    font-size: 2em;
+    font-size: 3em;
   }
   
   footer h1{
